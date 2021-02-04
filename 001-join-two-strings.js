@@ -11,3 +11,9 @@
 // Example #2
 // solve("race", "car")
 // > "racecar"
+
+const solve = (strOne, strTwo) => {
+  return strOne.concat(strTwo)
+}
+
+console.log(solve('ab', 'ba'))
