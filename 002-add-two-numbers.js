@@ -14,7 +14,7 @@
 // > -180
 
 const solve = (intOne, intTwo) => {
-  return
+  return intOne + intTwo
 }
 
 console.log(solve(10, 10))
