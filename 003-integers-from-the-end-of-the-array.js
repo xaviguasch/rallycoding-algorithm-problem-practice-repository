@@ -17,7 +17,9 @@
 // > [-4]
 
 const solve = (intArray, k) => {
-  return
+  return intArray.slice(-k)
 }
 
 console.log(solve([1, 2, 3, 4], 2))
+console.log(solve([10, 20, 30, 40, 50, 60], 4))
+console.log(solve([1, -2, 3, -4], 1))
