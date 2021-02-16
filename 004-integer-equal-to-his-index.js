@@ -17,7 +17,11 @@
 // Both 1 and 4's values match their indexes in the array. We return 1 since it is the first occurrence.
 
 const solve = (intArray) => {
-  return
+  for (let i = 0; i < intArray.length; i++) {
+    if (intArray[i] === i) {
+      return intArray[i]
+    }
+  }
 }
 
 console.log(solve([10, 20, 11, 12, 4]))
